@@ -1,0 +1,56 @@
+body {
+    font-family: arial;
+}
+
+.header {
+    background-color: lightgreen;
+    padding: 1em;
+}
+
+.main {
+    background-color: lightseagreen;
+}
+
+.footer {
+    background-color: lightgreen;
+    padding: 1em;
+}
+
+.side-bar {
+    padding: 1em;
+}
+
+.content {
+    padding: 1em;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0em;
+    padding: 0em;
+}
+
+.menu a {
+    padding: 1em;
+    display: block;
+    width: 6em;
+}
+
+.menu a:hover {
+    background-color: lightseagreen;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+@media(min-width:800px) {
+    .side-bar {
+        float: right;
+        width: 25px;
+    }
+    .menu {
+        display: flex;
+    }
+}
